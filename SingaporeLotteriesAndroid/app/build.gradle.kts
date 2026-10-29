@@ -4,11 +4,26 @@ plugins {
 }
 
 android {
-    // Keep your existing namespace and other settings.
+    // Keep the namespace already defined in your project.
+    namespace = "com.singaporelotteries.app"
+
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.singaporelotteries.app"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
     }
 }
 
