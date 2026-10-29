@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_splash_background">#D90000</color>
+    <style name="Theme.SingaporeLotteries" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/singapore_lotteries_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.SingaporeLotteries.Normal</item>
+    </style>
+    <style name="Theme.SingaporeLotteries.Normal" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#D90000</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#D90000</item>
+        <item name="android:statusBarColor">#D90000</item>
+    </style>
+</resources>
